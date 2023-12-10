@@ -1,0 +1,340 @@
+.gods-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #01071f;
+}
+.gods-container01 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+
+.gods-navlink {
+  top: 24px;
+  left: 318px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gods-text01 {
+  top: 20px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+}
+.gods-image {
+  top: 8px;
+  left: 213px;
+  width: 54px;
+  height: 59px;
+  position: absolute;
+  object-fit: cover;
+}
+.gods-navlink1 {
+  top: 24px;
+  left: 586px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.gods-navlink2 {
+  top: 24px;
+  left: 711px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.gods-navlink3 {
+  top: 24px;
+  left: 854px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.gods-button {
+  top: 18px;
+  right: 149px;
+  display: flex;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.gods-button1 {
+  top: 18px;
+  right: 24px;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.gods-navlink4 {
+  top: 24px;
+  left: 445px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+input.inputgods {
+  display: none;
+}
+
+.container-gods {
+  width: 100%;
+  text-align: center;
+}
+
+.container-gods h1 {
+  position: relative;
+  margin: 40px 0;
+  font-size: 36px;
+  font-family: Verdana;
+  color: white;
+}
+
+
+@keyframes animate {
+  0% {
+      width: 50px;
+  }
+  50% {
+      width: 75px;
+  }
+  100% {
+      width: 100px;
+  }
+}
+
+.top-content {
+  background-color: #222;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+label.label-gods {
+  display: inline-block;
+  height: 100%;
+  margin: 0 20px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #9b870c;
+  cursor: pointer;
+  transition: color .5s;
+  width: 50%;
+}
+
+label.label-gods:hover {
+  color: gold;
+}
+
+.photo-gallery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.pic {
+  position: relative;
+  height: 460px;
+  border-radius: 2px;;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  transition: .5s;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  transition: .5s;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-family: 'Verdana';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay > * {
+  transform: TranslateY(20px);
+  transition: transform 0.25s;
+
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: TranslateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image_description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+#check1:checked ~ .container-gods .photo-gallery .pic {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+  transition: .5s;
+}
+
+#check2:checked ~ .container-gods .photo-gallery .mage {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+#check2:checked ~ .container-gods .photo-gallery .guardian,
+#check2:checked ~ .container-gods .photo-gallery .warrior,
+#check2:checked ~ .container-gods .photo-gallery .assassin,
+#check2:checked ~ .container-gods .photo-gallery .hunter {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: .5s;
+}
+
+#check3:checked ~ .container-gods .photo-gallery .guardian {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+#check3:checked ~ .container-gods .photo-gallery .mage,
+#check3:checked ~ .container-gods .photo-gallery .warrior,
+#check3:checked ~ .container-gods .photo-gallery .assassin,
+#check3:checked ~ .container-gods .photo-gallery .hunter {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: .5s;
+}
+
+#check4:checked ~ .container-gods .photo-gallery .warrior {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+#check4:checked ~ .container-gods .photo-gallery .mage,
+#check4:checked ~ .container-gods .photo-gallery .guardian,
+#check4:checked ~ .container-gods .photo-gallery .assassin,
+#check4:checked ~ .container-gods .photo-gallery .hunter {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: .5s;
+}
+
+#check5:checked ~ .container-gods .photo-gallery .assassin {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+#check5:checked ~ .container-gods .photo-gallery .mage,
+#check5:checked ~ .container-gods .photo-gallery .warrior,
+#check5:checked ~ .container-gods .photo-gallery .guardian,
+#check5:checked ~ .container-gods .photo-gallery .hunter {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: .5s;
+}
+
+#check6:checked ~ .container-gods .photo-gallery .hunter {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+#check6:checked ~ .container-gods .photo-gallery .mage,
+#check6:checked ~ .container-gods .photo-gallery .warrior,
+#check6:checked ~ .container-gods .photo-gallery .assassin,
+#check6:checked ~ .container-gods .photo-gallery .guardian {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: .5s;
+}
+
+body.gods-body {
+  background: #222;
+}
+
+.gods-text {
+  left: 803px;
+  bottom: 8px;
+  position: bottom;
+  color: white;
+}

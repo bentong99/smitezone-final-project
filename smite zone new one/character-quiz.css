@@ -1,0 +1,332 @@
+
+.character-quiz-container1 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.character-quiz-text {
+  left: 803px;
+  bottom: 8px;
+  position: absolute;
+}
+.character-quiz-navlink {
+  top: 24px;
+  left: 318px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.character-quiz-text1 {
+  top: 20px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+}
+.character-quiz-image {
+  top: 8px;
+  left: 213px;
+  width: 54px;
+  height: 59px;
+  position: absolute;
+  object-fit: cover;
+}
+.character-quiz-navlink1 {
+  top: 24px;
+  left: 586px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.character-quiz-navlink2 {
+  top: 24px;
+  left: 711px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.character-quiz-navlink3 {
+  top: 24px;
+  left: 854px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.character-quiz-text4 {
+  top: 20px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+}
+.character-quiz-button {
+  top: 18px;
+  right: 149px;
+  display: flex;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.character-quiz-button1 {
+  top: 18px;
+  right: 24px;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.character-quiz-navlink4 {
+  top: 24px;
+  left: 445px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .character-quiz-navlink1 {
+    top: 24px;
+    left: 543px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .character-quiz-navlink2 {
+    top: 24px;
+    left: 646px;
+  }
+  .character-quiz-navlink3 {
+    top: 24px;
+    left: 774px;
+  }
+  .character-quiz-navlink4 {
+    top: 24px;
+    left: 424px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+@media(max-width: 767px) {
+  .character-quiz-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .character-quiz-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #01071f;
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#91c1d1",
+      endColorstr="#91d1c1",
+      GradientType=0
+    );
+  text-align: center;
+  color: white;
+}
+
+#quiz {
+	font-family: 'Verdana';
+	width: 800px;
+	align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 350px;
+  margin-left: 550px;
+}
+#questions {
+	font-size: 1.3em;
+}
+#answers {
+	list-style-type: none;
+	margin: 25px 0 0 0;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-left: 77.5px;
+}
+#answers li {
+	float: left;
+	margin: 0px 15px 15px 0px;
+	width: 200px;
+	height: 50px;
+	position: relative;
+}
+#answers label, #answers input {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#answers input[type="radio"] {
+	opacity: 0.011;
+	z-index: 100;
+}
+#answers input[type="radio"]:checked + label {
+	opacity: 1;
+  color: yellow;
+  border: 2px solid yellow;
+}
+#answers label {
+	padding: 5px;
+	border: 2px solid white;
+	cursor: pointer;
+	z-index: 90;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+}
+#answers label:hover {
+	border: 2px solid yellow;
+  opacity: 1;
+  color: yellow;
+}
+
+#results {
+  display: none;
+  margin-top: 350px;
+  margin-left: 835px;
+}
+
+#error {
+	display: none;	
+	}
+	
+.Thor {
+	font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+
+.Aphrodite {
+  font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: White;
+}
+
+.Bacchus {
+  font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+
+.Horus {
+  font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+  
+.Neith {
+  font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+
+.Achilles {
+  font-family: "Verdana";
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+}
+
+#restart {
+  font-size: 1.3em;
+  padding: 5.0em 1.8em;
+  border-radius: 0.2em;
+  color: black;
+  background-color: goldenrod;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 100px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#restart:hover {
+  background-color: gold;
+}
+
+.startbutton {
+  font-size: 1.3em;
+  padding: 5.0em 1.8em;
+  border-radius: 0.2em;
+  color: black;
+  background-color: goldenrod;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 80px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.startbutton:hover {
+  background-color: gold;
+}

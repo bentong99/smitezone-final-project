@@ -1,0 +1,270 @@
+body {
+    background-image: linear-gradient(90deg, rgba(49, 50, 51, 0.6) 100.00%,rgba(49, 50, 51, 0.6) 100.00%),url("public/playground_assets/wallpapersden.com_olorun-smite_1920x1080-1500w.jpg");
+    background-size: cover;
+  }
+  .matching-game-container1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+    border-color: #000000;
+    border-style: dashed;
+    border-width: 2px;
+    justify-content: flex-start;
+    background-color: #000000;
+  }
+  
+  .matching-game-text {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  
+  .matching-game-text01 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  .matching-game-text02 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .matching-game-text03 {
+    left: 803px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .matching-game-navlink {
+    top: 24px;
+    left: 318px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .matching-game-text04 {
+    top: 20px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+  }
+  .matching-game-image {
+    top: 8px;
+    left: 213px;
+    width: 54px;
+    height: 59px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .matching-game-navlink1 {
+    top: 24px;
+    left: 586px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .matching-game-navlink2 {
+    top: 24px;
+    left: 711px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .matching-game-navlink3 {
+    top: 24px;
+    left: 854px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .matching-game-button {
+    top: 18px;
+    right: 149px;
+    display: flex;
+    position: absolute;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 400;
+  }
+  .matching-game-button1 {
+    top: 18px;
+    right: 24px;
+    position: absolute;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 400;
+  }
+  .matching-game-navlink4 {
+    top: 24px;
+    left: 445px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  @media(max-width: 1600px) {
+    .matching-game-navlink1 {
+      top: 24px;
+      left: 543px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-style: normal;
+      font-family: Verdana;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .matching-game-navlink2 {
+      top: 24px;
+      left: 646px;
+    }
+    .matching-game-navlink3 {
+      top: 24px;
+      left: 774px;
+    }
+    .matching-game-navlink4 {
+      top: 24px;
+      left: 424px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-style: normal;
+      font-family: Verdana;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+  @media(max-width: 767px) {
+    .matching-game-text03 {
+      text-align: center;
+      margin-left: var(--dl-space-space-unit);
+      margin-right: var(--dl-space-space-unit);
+    }
+  }
+  @media(max-width: 479px) {
+    .matching-game-text03 {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+  }
+  
+  .quiz-buttonnormal {
+    background-color: orange;
+    border: none;
+    padding: 14.5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-in-out;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform: TranslateY(510%);
+  }
+  
+  .quiz-buttoneasy {
+    background-color: green;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-in-out;
+    position: absolute;
+    top: 50%;
+    transform: translateY(400%) TranslateX(-300%);
+  }
+  
+  .quiz-buttonhard {
+    background-color: red;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-in-out;
+    position: absolute;
+    top: 50%;
+    transform: translateY(398%) TranslateX(190%);
+  }
+
+  .quiz-buttonnormal:hover {
+    background-color: lightsalmon;
+  }
+
+  .quiz-buttoneasy:hover {
+    background-color: lightgreen;
+  }
+
+  .quiz-buttonhard:hover {
+    background-color: lightcoral;
+  }
+
+H1 {
+  top: 90px;
+  position: relative;
+  font-size: 36px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.start-screen,
+.score-container {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#start-button {
+  font-size: 1.3em;
+  border-radius: 0.2em;
+  color: black;
+}

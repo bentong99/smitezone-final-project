@@ -1,0 +1,199 @@
+
+.support-container1 {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(49, 50, 51, 0.6) 100.00%,rgba(49, 50, 51, 0.6) 100.00%),url("/images/supportbg.jpg");
+  height: 91.8vh;
+  justify-content: center;
+  background-position: center;
+}
+.support-text {
+  left: 803px;
+  bottom: 8px;
+  position: absolute;
+}
+.support-navlink {
+  top: 24px;
+  left: 318px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.support-text1 {
+  top: 20px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+}
+.support-image {
+  top: 8px;
+  left: 213px;
+  width: 54px;
+  height: 59px;
+  position: absolute;
+  object-fit: cover;
+}
+.support-navlink1 {
+  top: 24px;
+  left: 586px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.support-navlink2 {
+  top: 24px;
+  left: 711px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.support-navlink3 {
+  top: 24px;
+  left: 854px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+.support-button {
+  top: 18px;
+  right: 149px;
+  display: flex;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.support-button1 {
+  top: 18px;
+  right: 24px;
+  position: absolute;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 400;
+}
+.support-navlink4 {
+  top: 24px;
+  left: 445px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 700;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .support-navlink1 {
+    top: 24px;
+    left: 543px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .support-navlink2 {
+    top: 24px;
+    left: 646px;
+  }
+  .support-navlink3 {
+    top: 24px;
+    left: 774px;
+  }
+  .support-navlink4 {
+    top: 24px;
+    left: 424px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+@media(max-width: 767px) {
+  .support-text {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .support-text {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+form{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+} 
+
+h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: white;
+  font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background: goldenrod;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}

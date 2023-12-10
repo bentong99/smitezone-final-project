@@ -1,0 +1,324 @@
+
+.quiz-container1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+    border-color: #000000;
+    border-style: dashed;
+    border-width: 2px;
+    justify-content: flex-start;
+    background-color: #000000;
+  }
+  .quiz-text {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .quiz-text01 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .quiz-text02 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .quiz-text03 {
+    left: 803px;
+    bottom: 8px;
+    position: absolute;
+  }
+  .quiz-navlink {
+    top: 24px;
+    left: 318px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .quiz-text04 {
+    top: 20px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+  }
+  .quiz-image {
+    top: 8px;
+    left: 213px;
+    width: 54px;
+    height: 59px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .quiz-navlink1 {
+    top: 24px;
+    left: 586px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .quiz-navlink2 {
+    top: 24px;
+    left: 711px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .quiz-navlink3 {
+    top: 24px;
+    left: 854px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .quiz-button {
+    top: 18px;
+    right: 149px;
+    display: flex;
+    position: absolute;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 400;
+  }
+  .quiz-button1 {
+    top: 18px;
+    right: 24px;
+    position: absolute;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 400;
+  }
+  .quiz-navlink4 {
+    top: 24px;
+    left: 445px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  @media(max-width: 1600px) {
+    .quiz-navlink1 {
+      top: 24px;
+      left: 543px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-style: normal;
+      font-family: Verdana;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .quiz-navlink2 {
+      top: 24px;
+      left: 646px;
+    }
+    .quiz-navlink3 {
+      top: 24px;
+      left: 774px;
+    }
+    .quiz-navlink4 {
+      top: 24px;
+      left: 424px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-style: normal;
+      font-family: Verdana;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+  @media(max-width: 767px) {
+    .quiz-text03 {
+      text-align: center;
+      margin-left: var(--dl-space-space-unit);
+      margin-right: var(--dl-space-space-unit);
+    }
+  }
+  @media(max-width: 479px) {
+    .quiz-text03 {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-unit);
+    }
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(90deg, rgba(49, 50, 51, 0.6) 100.00%,rgba(49, 50, 51, 0.6) 100.00%),url("public/playground_assets/wallpapersden.com_olorun-smite_1920x1080-1500w.jpg");
+    background-size: cover;
+  }
+  .start-screen,
+  .score-container {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  #start-button {
+    background-color: goldenrod;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 300px;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #start-button:hover {
+    background-color: gold;
+  }
+  
+  #restart {
+    font-size: 1.3em;
+    padding: 5.0em 1.8em;
+    border-radius: 0.2em;
+    color: black;
+    background-color: goldenrod;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 100px;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #restart:hover {
+    background-color: gold;
+  }
+  #display-container {
+    background-color: #ffffff;
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+  }
+  .header {
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.6em;
+    border-bottom: 0.1em solid #c0bfd2;
+  }
+  .timer-div {
+    background-color: #e1f5fe;
+    width: 7.5em;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em 3.2em;
+  }
+  .question {
+    margin-bottom: 1.25em;
+    font-weight: 600;
+  }
+  .option-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid #c0bfd2;
+    border-radius: 0.3em;
+  }
+  .option-div:disabled {
+    color: #000000;
+    cursor: not-allowed;
+  }
+  #next-button {
+    font-size: 1em;
+    margin-top: 1.5em;
+    background-color: goldenrod;
+    color: black;
+    padding: 0.7em 1.8em;
+    border-radius: 0.3em;
+    float: right;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #next-button:hover {
+    background-color: gold;
+  }
+  .hide {
+    display: none;
+  }
+  .incorrect {
+    background-color: #ffdde0;
+    color: #d32f2f;
+    border-color: #d32f2f;
+  }
+  .correct {
+    background-color: #e7f6d5;
+    color: #689f38;
+    border-color: #689f38;
+  }
+  #user-score {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 200px;
+  }
+  
+  
+  
+  
+  
+  
